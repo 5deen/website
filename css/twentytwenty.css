@@ -1,0 +1,183 @@
+.entry-content hr,
+hr.styled-separator {
+	background: linear-gradient(to left, currentColor calc(50% - 16px), transparent calc(50% - 16px), transparent calc(50% + 16px), currentColor calc(50% + 16px));
+	background-color: transparent !important;
+	border: none;
+	height: 0.1rem;
+	overflow: visible;
+    position: relative;
+    visibility: hidden;
+}
+
+.entry-content hr:not(.has-background),
+hr.styled-separator {
+    color: #6d6d6d;
+    visibility: hidden;
+}
+
+.entry-content hr::before,
+.entry-content hr::after,
+hr.styled-separator::before,
+hr.styled-separator::after {
+	background: currentColor;
+	content: "";
+	display: block;
+	height: 1.6rem;
+	position: absolute;
+	top: calc(50% - 0.8rem);
+	transform: rotate(22.5deg);
+    width: 0.1rem;
+    visibility: hidden;
+}
+
+.entry-content hr::before,
+hr.styled-separator::before {
+    left: calc(50% - 0.5rem);
+    visibility: hidden;
+}
+
+.entry-content hr::after,
+hr.styled-separator::after {
+    right: calc(50% - 0.5rem);
+    visibility: hidden;
+}
+
+a {
+	color: #cd6926;
+	text-decoration: underline;
+}
+
+blockquote {
+	border-color: #cd6926;
+	border-style: solid;
+
+	/*rtl:ignore*/
+	border-width: 0 0 0 0.2rem;
+	color: inherit;
+	font-size: 1em;
+	margin: 4rem 0;
+
+	/*rtl:ignore*/
+	padding: 0.5rem 0 0.5rem 2rem;
+}
+
+button,
+.button,
+.faux-button,
+.wp-block-button__link,
+.wp-block-file .wp-block-file__button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: #cd6926;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 0.0333em;
+	line-height: 1.25;
+	margin: 0;
+	opacity: 1;
+	padding: 1.1em 1.44em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: opacity 0.15s linear;
+}
+
+.color-accent,
+.color-accent-hover:focus,
+.color-accent-hover:hover {
+	color: #cd6926;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-accent,
+.bg-accent-hover:focus,
+.bg-accent-hover:hover {
+	background-color: #cd6926;
+}
+
+/* BORDER COLOR */
+
+.border-color-accent,
+.border-color-accent-hover:focus,
+.border-color-accent-hover:hover {
+	border-color: #cd6926;
+}
+
+/* FILL COLOR */
+
+.fill-children-accent,
+.fill-children-accent * {
+	fill: #cd6926;
+}
+
+.social-icons a {
+	align-items: center;
+	background: #cd6926;
+	border-radius: 50%;
+	color: #fff;
+	display: flex;
+	height: 4.4rem;
+	justify-content: center;
+	padding: 0;
+	text-decoration: none;
+	transition: transform 0.15s ease-in-out;
+	width: 4.4rem;
+}
+
+:root .has-accent-color {
+	color: #cd6926;
+}
+
+:root .has-accent-background-color {
+	background-color: #cd6926;
+	color: #fff;
+}
+
+.has-drop-cap:not(:focus)::first-letter {
+	color: #cd6926;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 5.1em;
+	font-weight: 800;
+	margin: 0.05em 0.1em 0 0;
+}
+
+.wp-block-button.is-style-outline {
+	color: #cd6926;
+}
+
+.wp-block-pullquote::before {
+	background: #fff;
+	border-radius: 50%;
+	color: #cd6926;
+	content: "”";
+	display: block;
+	font-size: 6.2rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0 auto 1.5rem auto;
+	text-align: center;
+	height: 4.4rem;
+	width: 4.4rem;
+}
+
+.comment-reply-link {
+	background-color: #cd6926;
+	color: #fff;
+	display: block;
+	padding: 0.7rem;
+}
+
+.footer-social a {
+	background-color: #cd6926;
+	height: 3.6rem;
+	width: 3.6rem;
+}
