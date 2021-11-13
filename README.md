@@ -1,4 +1,4 @@
-# 5deen: A grid driven content generator
+# 5deen: Generative Design
 
 ## Introduction
-The user interface is essential for almost all desktop, web, and mobile applications. On the other hand, people who want to deliver content are looking for a flexible way to prepare and publish their content. By using office applications, it is easy to compile well-formed documents. However, it still is a challenge to design more sophisticated layouts. The widespread popularity of mobile applications lets people look for User Interfaces that allow them to create documents quickly and be reliable in terms of formatting and accessibility.
+5deen provides a text driven grid generator that transforms a text into patterns. The service includes a library of templates to assign characters to specific styles and shapes. The result is a sequence of shapes that form a multidimensional grid.
