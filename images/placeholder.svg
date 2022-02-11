@@ -1,0 +1,32 @@
+<svg id="w1ME8xC-" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1282 160"
+    height="100%" width="100%" preserveAspectRatio="xMidYMid meet">
+
+    
+    <style>
+        rect.canvas {
+            stroke-width: 5;
+            stroke: #2e3a1b;
+            fill: url(#radredgreen);
+            visibility: visible;
+        }
+
+        text.mono {
+            font: bold 70px serif;
+            fill: #2e3a1b;
+            font-family: monospace;
+        }
+    </style>
+    <defs>
+        <radialGradient id="radredgreen" fx="50%" fy="1%" r="75%">
+            <stop offset="0%" stop-color="#d3f800" stop-opacity="1"></stop>
+            <stop offset="100%" stop-color="#e7a30f" stop-opacity="1"></stop>
+        </radialGradient>
+    </defs>
+
+    <g id="panel">
+        <rect x="6" y="6" width="95%" height="95%" rx="15" ry="15" class="canvas" fill-opacity="40%"></rect>
+       
+    </g>
+
+
+</svg>

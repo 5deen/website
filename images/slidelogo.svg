@@ -1,0 +1,41 @@
+<svg id="w1ME8xC-" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 250"
+    height="100%" width="100%" style="background-color:#cccccc;" preserveAspectRatio="xMidYMid meet">
+
+    <style>
+        rect.canvas {
+            stroke-width: 5;
+            stroke: #e8e8e8;
+            fill: url(#radredgreen);
+            visibility: visible;
+        }
+
+        rect.slides {
+            stroke-width: 3;
+            stroke: #ffffff;
+            fill: #00000;
+            visibility: visible;
+        }
+
+        text.mono {
+            font: bold 40px serif;
+            fill: #ffffff;
+            font-family: monospace;
+        }
+    </style>
+    <defs>
+        <radialGradient id="radredgreen" fx="50%" fy="1%" r="75%">
+            <stop offset="0%" stop-color="#2e3a1b" stop-opacity="1"></stop>
+            <stop offset="100%" stop-color="#3d628b" stop-opacity="1"></stop>
+        </radialGradient>
+    </defs>
+    <g id="panel" transform="translate(0,0)">
+        <rect x="20" y="20" width="320" height="200" rx="20" ry="20" class="canvas" fill-opacity="90%"></rect>
+        <g id="slidelogo" transform="translate(0,-10)">
+            <rect x="250" y="60" width="150" height="100" rx="8" ry="8" class="slides" fill-opacity="50%"></rect>
+            <rect x="270" y="80" width="150" height="100" rx="8" ry="8" class="slides" fill-opacity="50%"></rect>
+            <rect x="290" y="100" width="150" height="100" rx="8" ry="8" class="slides" fill-opacity="50%"></rect>
+
+        </g>
+        <text x="50" y="100" class="mono">Slides</text>
+    </g>
+</svg>
