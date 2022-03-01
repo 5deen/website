@@ -21,21 +21,21 @@
         circle.node1 {
             stroke-width: 0.002;
             stroke: none;
-            fill: #ffcc00;
+            fill: url(#orangeviolet);
             visibility: visible;
         }
 
         path.node2 {
-            stroke-width: 0.005;
-            stroke: #0000ff;
-            fill: none;
+            stroke-width: 0.001;
+            stroke: none;
+            fill: #ff8800;
             visibility: visible;
         }
 
-         path.node3 {
-            stroke-width: 0.002;
+        circle.node3 {
+            stroke-width: 0.0001;
             stroke: none;
-            fill: #0455ff;
+            fill: #ffccff;
             visibility: visible;
         }
     </style>
@@ -51,11 +51,11 @@
         a 0.25,0.25 0 1,0 0.5,0
         a 0.25,0.25 0 1,0 -0.5,0
         " class="node2" />
-            <circle r="0.05" class="node3">
-                <animateMotion dur="10s" repeatCount="indefinite" path="M 0.5, 0.5
+            <circle r="0.15" class="node3">
+                <animateMotion dur="20s" repeatCount="indefinite" path="M 0.5, 0.5
         m -0.25, 0
         a 0.25,0.25 0 1,0 0.5,0
-        a 0.25,0.25 0 1,0 -0.5,0 z" />
+        a 0.25,0.25 0 1,0 -0.5,0" />
             </circle>
 
         </symbol>
