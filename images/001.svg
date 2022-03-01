@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1 1">
+    
+    <style>
+        circle.orangeviolet {
+            fill: url(#orangeviolet);
+        }
+
+        rect.square {
+            stroke-width: 0.001;
+            stroke: #ff0000;
+            fill: none;
+        }
+
+        circle.node {
+            stroke-width: 0.002;
+            stroke: #ff0000;
+            fill: #ff0000;
+            visibility: visible;
+        }
+
+        circle.node1 {
+            stroke-width: 0.002;
+            stroke: none;
+            fill: #ffcc00;
+            visibility: visible;
+        }
+    </style>
+    <defs>
+        <symbol id="node" height="1" width="1" viewBox="0 0 1 1">
+            <circle cx="0.5" cy="0.5" r="0.5" class="node"></circle>
+            <circle cx="0.5" cy="0.5" r="0.45" class="node1"></circle>
+        
+        </symbol>
+        <symbol id="square" height="1" width="1" viewBox="0 0 1 1">
+            <rect x="0" y="0" height="1" width="1" class="square"></rect>
+        </symbol>
+        <radialGradient id="orangeviolet" fx="5%" fy="5%" r="65%">
+            <stop offset="0%" stop-color="#c98833" stop-opacity="1"></stop>
+            <stop offset="100%" stop-color="#ff00c8" stop-opacity="1"></stop>
+        </radialGradient>
+    </defs>
+    <g id="main">
+        <g transform="translate(0,0), scale(1)">
+            <use xlink:href="#square"></use>
+        </g>
+        <g transform="translate(0,0), scale(1)">
+            <use xlink:href="#node"></use>
+        </g>
+    </g>
+</svg>
