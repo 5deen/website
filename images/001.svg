@@ -21,7 +21,7 @@
         circle.node1 {
             stroke-width: 0.002;
             stroke: none;
-            fill: #ffcc00;
+            fill: #c0ccf4;
             visibility: visible;
         }
     </style>

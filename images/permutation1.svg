@@ -1,0 +1,35 @@
+<svg id="w1ME8xC-" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+    height="110" width="720">
+
+    <style>
+        rect.canvas {
+            stroke-width: 1;
+            stroke: #000000;
+            fill: #ffffff;
+            visibility: visible;
+        }
+
+        line.canvas {
+            stroke-width: 1;
+            stroke: #000000;
+            visibility: visible;
+        }
+
+        text.mono {
+            font: bold 40px serif;
+            fill: #000000;
+            font-family: monospace;
+        }
+    </style>
+
+    <g id="panel" transform="translate(2,5)">
+        <rect x="0" y="0" width="178" height="98" rx="0" ry="0" class="canvas"></rect>
+        <g id="text" transform="translate(0,0)">
+            <text x="20" y="60" class="mono">a</text>
+            <text x="80" y="60" class="mono">b</text>
+            <text x="140" y="60" class="mono">c</text>
+        </g>
+        <line x1="60" y1="0" x2="60" y2="98" class="canvas" />
+        <line x1="120" y1="0" x2="120" y2="98" class="canvas" />
+    </g>
+</svg>
