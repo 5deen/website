@@ -1,0 +1,183 @@
+<svg id="Pattern" xmlns="http://www.w3.org/2000/svg" xmlnsxlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 1200"
+    width="100%" height="100%" style="background-color:#c0ccf4;" preserveAspectRatio="xMidYMid meet">
+
+    <style>
+        rect.canvas {
+            stroke-width: 1;
+            stroke: #000000;
+            fill: #ffffff;
+            visibility: visible;
+        }
+
+        line.grid {
+            stroke-width: 1;
+            stroke: #ff00ff;
+        }
+
+        g.grid {
+            visibility: visible;
+        }
+
+        circle.orangeviolet {
+            fill: url(#orangeviolet);
+        }
+
+        rect.orangeviolet {
+            fill: url(#orangeviolet);
+        }
+
+        rect.square {
+            stroke-width: 0.01;
+            stroke: #ff0000;
+            fill: none;
+            visibility: visible;
+        }
+
+        rect.innerSquare {
+            stroke-width: 0.01;
+            stroke: #ffeecc;
+            fill: #ccee00;
+            visibility: visible;
+        }
+
+        circle.node {
+            stroke-width: 0.002;
+            stroke: #ff0000;
+            fill: #ff0000;
+            visibility: hidden;
+        }
+
+        circle.innerNode {
+            stroke-width: 0.002;
+            stroke: none;
+            fill: #ffcc00;
+            visibility: visible;
+        }
+
+        polygon.triangle {
+            stroke-width: 0.01;
+            stroke: #ff0000;
+            fill: #ff00ff;
+            visibility: visible;
+        }
+
+        line.nodesign {
+            stroke-width: 0.01;
+            stroke: #ff0000;
+        }
+        circle.nodesign {
+            stroke-width: 0.01;
+            stroke: #ff0000;
+            fill: none;
+            visibility: visible;
+        }
+    </style>
+    <defs>
+        <symbol id="node" height="1" width="1" viewBox="0 0 1 1">
+            <circle cx="0.5" cy="0.5" r="0.5" class="node"></circle>
+            <circle cx="0.5" cy="0.5" r="0.45" class="innerNode"></circle>
+        </symbol>
+        <symbol id="nodesignL" height="1" width="1" viewBox="0 0 1 1">
+            <circle cx="0.5" cy="0.5" r="0.25" class="nodesign"></circle>
+             <line x1="0" y1="0.5" x2="0.25" y2="0.5" class="nodesign"></line>
+        </symbol>
+         <symbol id="nodesignT" height="1" width="1" viewBox="0 0 1 1">
+            <circle cx="0.5" cy="0.5" r="0.25" class="nodesign"></circle>
+             <line x1="0.5" y1="0" x2="0.5" y2="0.25" class="nodesign"></line>
+        </symbol>
+         <symbol id="nodesignR" height="1" width="1" viewBox="0 0 1 1">
+            <circle cx="0.5" cy="0.5" r="0.25" class="nodesign"></circle>
+             <line x1="0.75" y1="0.5" x2="1" y2="0.5" class="nodesign"></line>
+        </symbol>
+
+        <symbol id="square" height="1" width="1" viewBox="0 0 1 1">
+            <rect x="0" y="0" height="1" width="1" class="square" transform="translate(0.05,0.05), scale(0.90)"></rect>
+            <rect x="0" y="0" height="1" width="1" class="innerSquare" transform="translate(0.10,0.10), scale(0.80)"></rect>
+        </symbol>
+         <symbol id="triangle" height="1" width="1" viewBox="0 0 1 1">
+             <polygon points="0.5,0 1,1 0,1"  class="triangle" transform="translate(0.10,0.10), scale(0.80)"></polygon>
+        </symbol>
+        <radialGradient id="orangeviolet" fx="5%" fy="5%" r="65%">
+            <stop offset="0%" stop-color="#c98833" stop-opacity="1"></stop>
+            <stop offset="100%" stop-color="#ff00c8" stop-opacity="1"></stop>
+        </radialGradient>
+    </defs>
+    <g id="main">
+        <rect x="0" y="0" width="600" height="1200" class="canvas"></rect>
+        <g id="0" transform="translate(0,0)">
+            <g transform="translate(0,0), scale(200)">
+                <use xlink:href="#nodesignL"></use>
+            </g>
+            <g transform="translate(200,0), scale(200)">
+                <use xlink:href="#nodesignT"></use>
+            </g>
+            <g transform="translate(400,0), scale(200)">
+                <use xlink:href="#nodesignR"></use>
+            </g>
+        </g>
+        <g id="1" transform="translate(0,200)">
+            <g transform="translate(0,0), scale(200)">
+                <use xlink:href="#node"></use>
+            </g>
+            <g transform="translate(200,0), scale(200)">
+                <use xlink:href="#square"></use>
+            </g>
+            <g transform="translate(400,0), scale(200)">
+                <use xlink:href="#triangle"></use>
+            </g>
+        </g>
+        <g id="2" transform="translate(0,400)">
+            <g transform="translate(0,0), scale(200)">
+                <use xlink:href="#node"></use>
+            </g>
+            <g transform="translate(200,0), scale(200)">
+                <use xlink:href="#triangle"></use>
+            </g>
+            <g transform="translate(400,0), scale(200)">
+                <use xlink:href="#square"></use>
+            </g>
+        </g>
+        <g id="3" transform="translate(0,600)">
+            <g transform="translate(0,0), scale(200)">
+                <use xlink:href="#square"></use>
+            </g>
+            <g transform="translate(200,0), scale(200)">
+                <use xlink:href="#triangle"></use>
+            </g>
+            <g transform="translate(400,0), scale(200)">
+                <use xlink:href="#node"></use>
+            </g>
+        </g>
+        <g id="4" transform="translate(0,800)">
+            <g transform="translate(0,0), scale(200)">
+                <use xlink:href="#triangle"></use>
+            </g>
+            <g transform="translate(200,0), scale(200)">
+                <use xlink:href="#square"></use>
+            </g>
+            <g transform="translate(400,0), scale(200)">
+                <use xlink:href="#node"></use>
+            </g>
+        </g>
+        <g id="5" transform="translate(0,1000)">
+            <g transform="translate(0,0), scale(200)">
+                <use xlink:href="#triangle"></use>
+            </g>
+            <g transform="translate(200,0), scale(200)">
+                <use xlink:href="#node"></use>
+            </g>
+            <g transform="translate(400,0), scale(200)">
+                <use xlink:href="#square"></use>
+            </g>
+        </g>
+        <g class="grid">
+            <line x1="200" y1="0" x2="200" y2="1200" class="grid"></line>
+            <line x1="400" y1="0" x2="400" y2="1200" class="grid"></line>
+            <line x1="0" y1="200" x2="600" y2="200" class="grid"></line>
+            <line x1="0" y1="400" x2="600" y2="400" class="grid"></line>
+            <line x1="0" y1="600" x2="600" y2="600" class="grid"></line>
+            <line x1="0" y1="800" x2="600" y2="800" class="grid"></line>
+            <line x1="0" y1="1000" x2="600" y2="1000" class="grid"></line>
+        </g>
+    </g>
+</svg>
