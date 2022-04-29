@@ -3,9 +3,8 @@
 
     <style>
         rect.canvas {
-            stroke-width: 1;
-            stroke: #000000;
-            fill: #ffcc00;
+            
+            fill: #a0522d;
             visibility: visible;
         }
 
@@ -15,7 +14,7 @@
         }
 
         g.grid {
-            visibility: visible;
+            visibility: hidden;
         }
          polygon.triangle {
             stroke-width: 0.01;
@@ -74,10 +73,10 @@
         <rect x="0" y="0" width="600" height="1200" class="canvas"></rect>
         <g id="0" transform="translate(0,0)">
             <g transform="translate(0,0), scale(200)">
-                <use xlink:href="#pyramid_a"></use>
+                <use xlink:href="#pyramid_b"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
-                <use xlink:href="#pyramid_b"></use>
+                <use xlink:href="#pyramid_a"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#pyramid_c"></use>
@@ -85,57 +84,57 @@
         </g>
         <g id="1" transform="translate(0,200)">
             <g transform="translate(0,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_b"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_c"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_a"></use>
             </g>
         </g>
         <g id="2" transform="translate(0,400)">
             <g transform="translate(0,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_a"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_c"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_b"></use>
             </g>
         </g>
         <g id="3" transform="translate(0,600)">
             <g transform="translate(0,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_c"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_a"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_b"></use>
             </g>
         </g>
         <g id="4" transform="translate(0,800)">
             <g transform="translate(0,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_c"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_b"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_a"></use>
             </g>
         </g>
         <g id="5" transform="translate(0,1000)">
             <g transform="translate(0,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_a"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_b"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
-                <use xlink:href="#pyramid"></use>
+                <use xlink:href="#pyramid_c"></use>
             </g>
         </g>
         <g class="grid">
