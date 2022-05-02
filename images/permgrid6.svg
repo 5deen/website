@@ -9,12 +9,12 @@
         }
 
         line.grid {
-            stroke-width: 1;
+            stroke-width: 3;
             stroke: #d2691e;
         }
 
         g.grid {
-            visibility: hidden;
+            visibility: visible;
         }
          polygon.triangle {
             stroke-width: 0.01;
@@ -54,6 +54,42 @@
             fill: #8b0000;
             visibility: visible;
         }
+        rect.square {
+            stroke-width: 0.01;
+            stroke: #d2691e;
+            fill: none;
+            visibility: visible;
+        }
+
+        circle.net_a {
+            fill: #d2691e;
+            visibility: visible;
+        }
+
+        line.net_a {
+            stroke-width: 0.01;
+            stroke: #d2691e;
+            visibility: visible;
+        }
+
+        line.net_b {
+            stroke-width: 0.01;
+            stroke: #8b0000;
+            visibility: visible;
+        }
+         circle.net_b {
+            fill: #8b0000;
+            visibility: visible;
+        }
+        line.net_c {
+            stroke-width: 0.01;
+            stroke: #ffdead;
+            visibility: visible;
+        }
+         circle.net_c {
+            fill: #ffdead;
+            visibility: visible;
+        }
     </style>
     <defs>
          <symbol id="node_a" height="1" width="1" viewBox="0 0 1 1">
@@ -65,98 +101,141 @@
          <symbol id="node_c" height="1" width="1" viewBox="0 0 1 1">
             <circle cx="0.5" cy="0.5" r="0.45" class="node_c"></circle>
         </symbol>
-        <symbol id="pyramid" height="1" width="1" viewBox="0 0 1 1">
-            <polygon points="0,0 0.5,0.5 0,1" class="triangle" transform="translate(0.05,0.05), scale(0.90)"></polygon>
+         <symbol id="net_a" height="1" width="1" viewBox="0 0 1 1">
+             <circle cx="0.5" cy="0.5" r="0.075" class="net_a"></circle>
+
+            <circle cx="0.25" cy="0.25" r="0.075" class="net_a"></circle>
+            <circle cx="0.75" cy="0.25" r="0.075" class="net_a"></circle>
+            <circle cx="0.75" cy="0.75" r="0.075" class="net_a"></circle>
+            <circle cx="0.25" cy="0.75" r="0.075" class="net_a"></circle>
+
             
-            <polygon points="0,0 0.5,0.5 1,0" class="triangle" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0.5,0.5 1,0 1,1" class="triangle" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,1 0.5,0.5 1,1" class="triangle" transform="translate(0.05,0.05), scale(0.90)"></polygon>
+            <line x1="0.25" y1="0.25" x2="0.5" y2="0.5" class="net_a"></line>
+            <line x1="0.75" y1="0.25" x2="0.5" y2="0.5" class="net_a"></line>
+            <line x1="0.75" y1="0.75" x2="0.5" y2="0.5" class="net_a"></line>
+            <line x1="0.25" y1="0.75" x2="0.5" y2="0.5" class="net_a"></line>
+
         </symbol>
-        <symbol id="pyramid_a" height="1" width="1" viewBox="0 0 1 1">
-            <polygon points="0,0 0.5,0.5 0,1" class="triangle2" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,0 0.5,0.5 1,0" class="triangle4" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0.5,0.5 1,0 1,1" class="triangle3" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,1 0.5,0.5 1,1" class="triangle5" transform="translate(0.05,0.05), scale(0.90)"></polygon>
+        <symbol id="net_b" height="1" width="1" viewBox="0 0 1 1">
+             <circle cx="0.5" cy="0.5" r="0.075" class="net_b"></circle>
+
+             <circle cx="0.25" cy="0.25" r="0.075" class="net_b"></circle>
+             <circle cx="0.75" cy="0.25" r="0.075" class="net_b"></circle>
+             <circle cx="0.75" cy="0.75" r="0.075" class="net_b"></circle>
+             <circle cx="0.25" cy="0.75" r="0.075" class="net_b"></circle>
+
+            <line x1="0.25" y1="0.25" x2="0.75" y2="0.25" class="net_b"></line>
+            <line x1="0.75" y1="0.25" x2="0.75" y2="0.75" class="net_b"></line>
+            <line x1="0.75" y1="0.75" x2="0.25" y2="0.75" class="net_b"></line>
+            <line x1="0.25" y1="0.75" x2="0.25" y2="0.25" class="net_b"></line>
+
+            <line x1="0.25" y1="0.25" x2="0.5" y2="0.5" class="net_b"></line>
+            <line x1="0.75" y1="0.25" x2="0.5" y2="0.5" class="net_b"></line>
+            <line x1="0.75" y1="0.75" x2="0.5" y2="0.5" class="net_b"></line>
+            <line x1="0.25" y1="0.75" x2="0.5" y2="0.5" class="net_b"></line>
         </symbol>
-         <symbol id="pyramid_b" height="1" width="1" viewBox="0 0 1 1">
-            <polygon points="0,0 0.5,0.5 0,1" class="triangle5" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,0 0.5,0.5 1,0" class="triangle2" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0.5,0.5 1,0 1,1" class="triangle4" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,1 0.5,0.5 1,1" class="triangle3" transform="translate(0.05,0.05), scale(0.90)"></polygon>
+         <symbol id="net_c" height="1" width="1" viewBox="0 0 1 1">
+            
+             <circle cx="0.25" cy="0.25" r="0.075" class="net_c"></circle>
+             <circle cx="0.75" cy="0.25" r="0.075" class="net_c"></circle>
+             <circle cx="0.75" cy="0.75" r="0.075" class="net_c"></circle>
+             <circle cx="0.25" cy="0.75" r="0.075" class="net_c"></circle>
+
+            <line x1="0.25" y1="0.25" x2="0.75" y2="0.25" class="net_c"></line>
+            <line x1="0.75" y1="0.25" x2="0.75" y2="0.75" class="net_c"></line>
+            <line x1="0.75" y1="0.75" x2="0.25" y2="0.75" class="net_c"></line>
+            <line x1="0.25" y1="0.75" x2="0.25" y2="0.25" class="net_c"></line>
+
+            
         </symbol>
-         <symbol id="pyramid_c" height="1" width="1" viewBox="0 0 1 1">
-            <polygon points="0,0 0.5,0.5 0,1" class="triangle4" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,0 0.5,0.5 1,0" class="triangle3" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0.5,0.5 1,0 1,1" class="triangle2" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-            <polygon points="0,1 0.5,0.5 1,1" class="triangle5" transform="translate(0.05,0.05), scale(0.90)"></polygon>
-        </symbol>
+       
     </defs>
     <g id="main">
         <rect x="0" y="0" width="600" height="1200" class="canvas"></rect>
         <g id="0" transform="translate(0,0)">
             <g transform="translate(0,0), scale(200)">
                 <use xlink:href="#node_b"></use>
+                <use xlink:href="#net_b"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
                 <use xlink:href="#node_a"></use>
+                <use xlink:href="#net_a"></use>
+            </g>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#node_c"></use>
-            </g>
+                <use xlink:href="#net_c"></use>
+                
         </g>
         <g id="1" transform="translate(0,200)">
             <g transform="translate(0,0), scale(200)">
                 <use xlink:href="#node_b"></use>
+                <use xlink:href="#net_b"></use>
+                
             </g>
             <g transform="translate(200,0), scale(200)">
                 <use xlink:href="#node_c"></use>
+                <use xlink:href="#net_c"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#node_a"></use>
+                <use xlink:href="#net_a"></use>
             </g>
         </g>
         <g id="2" transform="translate(0,400)">
             <g transform="translate(0,0), scale(200)">
                 <use xlink:href="#node_a"></use>
+                <use xlink:href="#net_a"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
                 <use xlink:href="#node_c"></use>
+                <use xlink:href="#net_c"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#node_b"></use>
+                <use xlink:href="#net_b"></use>
             </g>
         </g>
         <g id="3" transform="translate(0,600)">
             <g transform="translate(0,0), scale(200)">
                 <use xlink:href="#node_c"></use>
+                <use xlink:href="#net_c"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
                 <use xlink:href="#node_a"></use>
+                <use xlink:href="#net_a"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#node_b"></use>
+                <use xlink:href="#net_b"></use>
             </g>
         </g>
         <g id="4" transform="translate(0,800)">
             <g transform="translate(0,0), scale(200)">
                 <use xlink:href="#node_c"></use>
+                <use xlink:href="#net_c"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
                 <use xlink:href="#node_b"></use>
+                <use xlink:href="#net_b"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#node_a"></use>
+                <use xlink:href="#net_a"></use>
             </g>
         </g>
         <g id="5" transform="translate(0,1000)">
             <g transform="translate(0,0), scale(200)">
                 <use xlink:href="#node_a"></use>
+                <use xlink:href="#net_a"></use>
             </g>
             <g transform="translate(200,0), scale(200)">
                 <use xlink:href="#node_b"></use>
+                <use xlink:href="#net_b"></use>
             </g>
             <g transform="translate(400,0), scale(200)">
                 <use xlink:href="#node_c"></use>
+                <use xlink:href="#net_c"></use>
             </g>
         </g>
         <g class="grid">
