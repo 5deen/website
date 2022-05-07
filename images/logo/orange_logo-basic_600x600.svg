@@ -1,0 +1,29 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlnsxlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600"
+    width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+    <style>
+        circle.node {
+            fill: #ff8c00;
+            visibility: visible;
+        }
+
+        circle.dot {
+            fill: #ffffff;
+            visibility: visible;
+        }
+    </style>
+    <g id="main">
+        <circle cx="300" cy="300" r="300" class="node"></circle>
+
+        <circle cx="160" cy="160" r="80" class="dot"></circle>
+        <circle cx="160" cy="160" r="40" class="node"></circle>
+        <circle cx="440" cy="160" r="80" class="dot"></circle>
+
+        <circle cx="160" cy="440" r="80" class="dot"></circle>
+        <circle cx="440" cy="440" r="80" class="dot"></circle>
+        <circle cx="440" cy="440" r="40" class="node"></circle>
+
+        <circle cx="300" cy="300" r="80" class="dot"></circle>
+        <circle cx="300" cy="300" r="25" class="node"></circle>
+       
+    </g>
+</svg>
