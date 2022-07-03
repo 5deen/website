@@ -1,0 +1,23 @@
+<svg id="5deen-logo" xmlns="http://www.w3.org/2000/svg" xmlnsxlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600"
+    width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+    <style>
+        circle.node {
+            fill: #f54905;
+        }
+
+        circle.dot {
+            fill: #ffffff;
+        }
+
+        rect.panel {
+            fill: #f54905;
+        }
+    </style>
+    <g id="main" transform="scale(2)">
+        <circle id="frame" cx="150" cy="150" r="150" class="node"></circle>
+        <g id="center">
+            <circle cx="150" cy="150" r="90" class="dot"></circle>
+            <rect x="0" y="0" height="100" width="100" class="panel" transform="translate(50, 50)"></rect>
+        </g>
+    </g>
+</svg>
