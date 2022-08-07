@@ -1,0 +1,121 @@
+<svg id="w1ME8xC-" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="140"
+    width="720">
+
+    <style>
+        rect.canvas {
+            stroke-width: 1;
+            stroke: #000000;
+            fill: #ffffff;
+            visibility: visible;
+        }
+
+        rect.shape1 {
+
+            stroke: none;
+            fill: #ff0000;
+            visibility: visible;
+        }
+
+        rect.shape2 {
+
+            stroke: none;
+            fill: #f08a0d;
+            visibility: visible;
+        }
+
+        rect.shape3 {
+
+            stroke: none;
+            fill: #ffff99;
+            visibility: visible;
+        }
+
+        rect.shape4 {
+
+            stroke: none;
+            fill: #993366;
+            visibility: visible;
+        }
+
+        line.canvas {
+            stroke-width: 1;
+            stroke: #000000;
+            visibility: visible;
+        }
+
+        line.canvas2 {
+            stroke-width: 0.5;
+            stroke: #000000;
+            stroke-dasharray: 5, 5;
+            visibility: visible;
+        }
+
+        text.mono {
+            font: bold 40px serif;
+            fill: #000000;
+            font-family: monospace;
+        }
+
+        text.mono2 {
+            font: 25px serif;
+            fill: #000000;
+            font-family: monospace;
+            a
+        }
+
+        circle.node1 {
+
+            stroke: none;
+            fill: #800000;
+            visibility: visible;
+        }
+
+        circle.node2 {
+
+            stroke: none;
+            fill: #ffe6cc;
+            visibility: visible;
+        }
+    </style>
+
+    <g id="panel" transform="translate(0,0)">
+        <rect x="0" y="0" width="120" height="120" rx="0" ry="0" class="canvas"></rect>
+
+        <g id="glyphs1" transform="translate(-4,2)">
+            <text x="22" y="35" class="mono">b</text>
+            <text x="82" y="35" class="mono">a</text>
+        </g>
+        <g id="glyphs2" transform="translate(-4,62)">
+            <text x="22" y="35" class="mono">d</text>
+            <text x="82" y="35" class="mono">c</text>
+        </g>
+        <line x1="60" y1="0" x2="60" y2="120" class="canvas" />
+        <line x1="0" y1="60" x2="120" y2="60" class="canvas" />
+
+        <g id="b" transform="translate(0,-60)">
+            
+            <rect x="0" y="60" width="60" height="60" rx="0" ry="0" class="shape2"></rect>
+            <circle cx="30" cy="90" r="25" class="node2"></circle>
+        </g>
+
+        <g id="a" transform="translate(0,-60)">
+           <rect x="60" y="60" width="60" height="60" rx="0" ry="0" class="shape1"></rect>
+            <circle cx="90" cy="90" r="25" class="node1"></circle>
+            
+        </g>
+
+         <g id="d" transform="translate(-120,0)">
+            <rect x="120" y="60" width="60" height="60" rx="0" ry="0" class="shape4"></rect>
+             <rect x="130" y="70" width="40" height="40" rx="0" ry="0" class="shape3"></rect>
+            </g>
+         <g id="c" transform="translate(-120,0)">
+            <rect x="180" y="60" width="60" height="60" rx="0" ry="0" class="shape3"></rect>
+            <rect x="190" y="70" width="40" height="40" rx="0" ry="0" class="shape2"></rect>
+            </g>
+
+
+       
+
+
+    </g>
+</svg>
