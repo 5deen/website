@@ -4,7 +4,7 @@
     <style>
         rect.canvas {
             stroke-width: 1;
-            stroke: #000000;
+            stroke: none;
             fill: #ffffff;
             visibility: visible;
         }

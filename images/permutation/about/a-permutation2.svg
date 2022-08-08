@@ -5,7 +5,7 @@
         rect.canvas {
             stroke-width: 1;
             stroke: #000000;
-            fill: #ffffff;
+            fill: none;
             visibility: visible;
         }
 

@@ -5,7 +5,7 @@
         rect.canvas {
             stroke-width: 1;
             stroke: #000000;
-            fill: #ffffff;
+            fill: none;
             visibility: visible;
         }
 
@@ -79,7 +79,7 @@
     <g id="panel" transform="translate(0,0)">
         <rect x="0" y="0" width="240" height="120" rx="0" ry="0" class="canvas"></rect>
       
-         <g id="glyphs" transform="translate(-4,2)">
+         <g id="glyphs" transform="translate(-4,5)">
             <text x="22" y="35" class="mono">a</text>
             <text x="82" y="35" class="mono">b</text>
             <text x="142" y="35" class="mono">c</text>
