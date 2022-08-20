@@ -22,7 +22,7 @@
 
         polygon.el {
             stroke-width: 1;
-            stroke: #ff0000;
+            stroke: #454651;
             fill: none;
         }
     </style>
@@ -38,8 +38,18 @@
                              ">
             <image x="0" y="0" height="1" width="1" preserveAspectRatio="none" href="result.svg" />
         </pattern>
+        <linearGradient id="wall1" gradientTransform="rotate(90)">
+                <stop offset="10%" stop-color="#c9e9e5"></stop>
+                <stop offset="90%" stop-color="#454651"></stop>
+            </linearGradient>
+            <linearGradient id="wall2" gradientTransform="rotate(90)">
+                <stop offset="10%" stop-color="#c9e9e5"></stop>
+                <stop offset="90%" stop-color="#b3b4c0"></stop>
+            </linearGradient>
     </defs>
     <rect id="canvas" x="0.0" y="0.0" width="1000" height="1000" class="canvas"></rect>
+     <rect id="canvas" x="0.0" y="0.0" width="1000" height="500" class="canvas" style="fill:url(#wall1)"></rect>
+      <rect id="canvas" x="0.0" y="0.0" width="1000" height="500" class="canvas" style="fill:url(#wall1)" transform="translate(0,500)"></rect>
     <g id="main">
         <line x1="500" y1="0" x2="500" y2="1000" class="grid"></line>
         <line x1="0" y1="500" x2="1000" y2="500" class="grid"></line>
@@ -53,8 +63,8 @@
         <line x1="250" y1="250" x2="250" y2="750" class="el"></line>
         <line x1="750" y1="250" x2="750" y2="750" class="el"></line>
 
-        <polygon id="s1" points="250,250 500,0 500,1000 250,750" style="fill:url(#img1)" />
-        <polygon id="s2" points="500,0 750,250 750,750 500,1000" class="el" />
+        <polygon id="s1" points="250,250 500,0 500,1000 250,750" class="el" style="fill:url(#wall1)" />
+        <polygon id="s2" points="500,0 750,250 750,750 500,1000" class="el" style="fill:url(#wall2)"/>
 
     </g>
 </svg>
