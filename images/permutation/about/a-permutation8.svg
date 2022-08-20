@@ -1,0 +1,171 @@
+<svg id="w1ME8xC-" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="180"
+    width="720">
+
+    <style>
+        rect.canvas {
+            stroke-width: 1;
+            stroke: #000000;
+            fill: none;
+            visibility: visible;
+        }
+
+        line.arrow {
+            stroke-width: 1;
+            stroke: #000000;
+            stroke-dasharray: 2, 2;
+            visibility: visible;
+        }
+
+        polygon.arrow {
+            stroke-width: 1;
+            stroke: #000000;
+            visibility: visible;
+        }
+
+
+
+        text.mono {
+            font: bold 40px serif;
+            fill: #000000;
+            font-family: monospace;
+        }
+
+        text.mono2 {
+            font: 25px serif;
+            fill: #000000;
+            font-family: monospace;
+            a
+        }
+
+        rect.shape1 {
+
+            stroke: none;
+            fill: #ff0000;
+            visibility: visible;
+        }
+
+        rect.shape2 {
+
+            stroke: none;
+            fill: #f08a0d;
+            visibility: visible;
+        }
+
+        rect.shape3 {
+
+            stroke: none;
+            fill: #ffff99;
+            visibility: visible;
+        }
+
+        rect.shape4 {
+
+            stroke: none;
+            fill: #993366;
+            visibility: visible;
+        }
+
+        circle.node1 {
+
+            stroke: none;
+            fill: #800000;
+            visibility: visible;
+        }
+
+        circle.node2 {
+
+            stroke: none;
+            fill: #ffe6cc;
+            visibility: visible;
+        }
+
+        circle.node3 {
+
+            stroke: none;
+            fill: #88cc00;
+            visibility: visible;
+        }
+
+        circle.node4 {
+
+            stroke: none;
+            fill: #ff9999;
+            visibility: visible;
+        }
+    </style>
+
+    <g id="glyphs" transform="translate(0,0)">
+        <g id="glyphs1" transform="translate(0,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="canvas"></rect>
+            <text x="18" y="38" class="mono">a</text>
+        </g>
+
+        <g id="glyphs2" transform="translate(80,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="canvas"></rect>
+            <text x="18" y="38" class="mono">b</text>
+        </g>
+
+        <g id="glyphs3" transform="translate(160,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="canvas"></rect>
+            <text x="18" y="38" class="mono">c</text>
+        </g>
+
+        <g id="glyphs4" transform="translate(240,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="canvas"></rect>
+            <text x="18" y="38" class="mono">d</text>
+        </g>
+    </g>
+    <g id="arrows" transform="translate(0,60)">
+        <g id="arrow1" transform="translate(30,0)">
+            <line x1="0" y1="0" x2="0" y2="50" class="arrow" />
+            <g transform="translate(-5,50)">
+                <polygon points="0,0 10,0 5,10" class="arrow" />
+            </g>
+        </g>
+
+        <g id="arrow2" transform="translate(110,0)">
+            <line x1="0" y1="0" x2="0" y2="50" class="arrow" />
+            <g transform="translate(-5,50)">
+                <polygon points="0,0 10,0 5,10" class="arrow" />
+            </g>
+        </g>
+
+        <g id="arrow3" transform="translate(190,0)">
+            <line x1="0" y1="0" x2="0" y2="50" class="arrow" />
+            <g transform="translate(-5,50)">
+                <polygon points="0,0 10,0 5,10" class="arrow" />
+            </g>
+        </g>
+
+        <g id="arrow4" transform="translate(270,0)">
+            <line x1="0" y1="0" x2="0" y2="50" class="arrow" />
+            <g transform="translate(-5,50)">
+                <polygon points="0,0 10,0 5,10" class="arrow" />
+            </g>
+        </g>
+
+
+    </g>
+
+    <g id="shapes" transform="translate(0,120)">
+        <g id="shape1" transform="translate(0,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="shape1"></rect>
+            <circle cx="30" cy="30" r="25" class="node1"></circle>
+        </g>
+
+        <g id="shape2" transform="translate(80,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="shape2"></rect>
+            <circle cx="30" cy="30" r="25" class="node2"></circle>
+        </g>
+
+        <g id="shape3" transform="translate(160,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="shape3"></rect>
+            <circle cx="30" cy="30" r="25" class="node3"></circle>
+        </g>
+
+        <g id="shape4" transform="translate(240,0)">
+            <rect x="0" y="0" width="60" height="60" rx="0" ry="0" class="shape4"></rect>
+            <circle cx="30" cy="30" r="25" class="node4"></circle>
+        </g>
+    </g>
+</svg>

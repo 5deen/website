@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.0 0.0 1024.0 1024.0"
+    width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+    <desc id="permutations">
+        <g id="init">aaa</g>
+        <g id="1">aaa</g>
+        <g id="2">aaa</g>
+        <g id="3">aaa</g>
+        <g id="4">aaa</g>
+        <g id="5">aaa</g>
+        <g id="6">aaa</g>
+    </desc>
+    <defs id="defs">
+        <pattern id="NodeBlock0" viewBox="0,0,10,10" width="50%" height="50%">
+            <radialGradient id="gradNodeBlock00">
+                <stop offset="10%" stop-color="#9ce4dc"></stop>
+                <stop offset="90%" stop-color="#0e0f17"></stop>
+            </radialGradient>
+            <radialGradient id="gradNodeBlock01">
+                <stop offset="10%" stop-color="#ebe537"></stop>
+                <stop offset="90%" stop-color="#749f25"></stop>
+            </radialGradient>
+            <radialGradient id="gradNodeBlock02">
+                <stop offset="10%" stop-color="#e2d0cc"></stop>
+                <stop offset="90%" stop-color="#d55f1a"></stop>
+            </radialGradient>
+            <rect style="fill:url(#gradNodeBlock00)" x="0.0" y="0.0" width="10.0" height="10.0"></rect>
+            <line x1="0.0" y1="5.0" x2="10.0" y2="5.0" style="stroke:#ccff66;stroke-width:0.25"></line>
+            <line x1="5.0" y1="0.0" x2="5.0" y2="10.0" style="stroke:#ccff66;stroke-width:0.25"></line>
+            <circle style="fill:url(#gradNodeBlock00)" cx="5.0" cy="5.0" r="2.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="5.0" cy="5.0" r="3.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="5.0" cy="5.0" r="4.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="5.0" cy="5.0" r="5.0"></circle>
+            <circle style="fill:url(#gradNodeBlock00)" cx="0.0" cy="0.0" r="1.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="0.0" cy="0.0" r="1.5"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="0.0" cy="0.0" r="2.0"></circle>
+            <circle style="fill:url(#gradNodeBlock00)" cx="10.0" cy="0.0" r="1.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="10.0" cy="0.0" r="1.5"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="10.0" cy="0.0" r="2.0"></circle>
+            <circle style="fill:url(#gradNodeBlock00)" cx="10.0" cy="10.0" r="1.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="10.0" cy="10.0" r="1.5"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="10.0" cy="10.0" r="2.0"></circle>
+            <circle style="fill:url(#gradNodeBlock00)" cx="0.0" cy="10.0" r="1.0"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="0.0" cy="10.0" r="1.5"></circle>
+            <circle style="stroke:#ff6600;stroke-width:0.20;fill:none" cx="0.0" cy="10.0" r="2.0"></circle>
+        </pattern>
+    </defs>
+    <rect x="0.0" y="0.0" width="1024.0" height="1024.0" style="stroke-width:1;stroke:#000000;fill:#c55ccf"></rect>
+    <g id="panels">
+        <g transform="translate(0.0, 0.0), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(204.8, 0.0), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(409.6, 0.0), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(614.4, 0.0), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(819.2, 0.0), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(0.0, 204.8), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(204.8, 204.8), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(409.6, 204.8), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(614.4, 204.8), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(819.2, 204.8), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(0.0, 409.6), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(204.8, 409.6), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(409.6, 409.6), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(614.4, 409.6), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(819.2, 409.6), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(0.0, 614.4), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(204.8, 614.4), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(409.6, 614.4), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(614.4, 614.4), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(819.2, 614.4), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(0.0, 819.2), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(204.8, 819.2), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(409.6, 819.2), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(614.4, 819.2), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+        <g transform="translate(819.2, 819.2), scale(204.8)">
+            <rect x="0" y="0" width="1" height="1" fill="url(#NodeBlock0)"></rect>
+        </g>
+    </g>
+</svg>
