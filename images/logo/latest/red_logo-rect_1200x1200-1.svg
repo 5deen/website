@@ -1,5 +1,5 @@
 <svg id="5deen-logo" xmlns="http://www.w3.org/2000/svg" xmlnsxlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 1200"
-    width="100%" background-color="#f54905" height="100%" preserveAspectRatio="xMidYMid meet">
+    width="100%" style="background-color:#f54905" height="100%" preserveAspectRatio="xMidYMid meet">
     <style>
         circle.node {
             fill: #f54905;
