@@ -13,7 +13,7 @@
             fill: #f54905;
         }
     </style>
-    <g id="main" transform="scale(3)">
+    <g id="main" transform="scale(4)">
         <circle id="frame" cx="150" cy="150" r="150" class="node"></circle>
         <g id="center">
             <circle cx="150" cy="150" r="90" class="dot"></circle>
